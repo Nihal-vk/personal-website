@@ -15,38 +15,37 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-  <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i
-      class="ti-shift-left-alt"></i> Components</a>
+
   <header class="header">
     <div class="container">
       <ul class="social-icons pt-3">
         <li class="social-item">
-          <a class="social-link text-light" href="https://www.facebook.com/profile.php?id=100009135317431"><i
-              class="ti-facebook" aria-hidden="true"></i></a>
-        </li>
-        <li class="social-item">
-          <a class="social-link text-light" href="https://twitter.com/NihalBinnousha5"><i class="ti-twitter"
+          <a class="social-link text-light" target="_blank"
+            href="https://www.facebook.com/profile.php?id=100009135317431"><i class="ti-facebook"
               aria-hidden="true"></i></a>
         </li>
         <li class="social-item">
-          <a class="social-link text-light" href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act"><i
-              class="ti-google" aria-hidden="true"></i></a>
+          <a class="social-link text-light" target="_blank" href="https://twitter.com/NihalBinnousha5"><i
+              class="ti-twitter" aria-hidden="true"></i></a>
         </li>
         <li class="social-item">
-          <a class="social-link text-light" href="https://www.instagram.com/nihal_bin_noushad/"><i class="ti-instagram"
+          <a class="social-link text-light" target="_blank"
+            href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act"><i class="ti-google"
               aria-hidden="true"></i></a>
         </li>
         <li class="social-item">
-          <a class="social-link text-light" href="https://github.com"><i class="ti-github" aria-hidden="true"></i></a>
+          <a class="social-link text-light" target="_blank" href="https://www.instagram.com/nihal_bin_noushad/"><i
+              class="ti-instagram" aria-hidden="true"></i></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link text-light" target="_blank" href="https://github.com"><i class="ti-github"
+              aria-hidden="true"></i></a>
         </li>
       </ul>
       <div class="header-content">
         <h4 class="header-subtitle">Hello, I am</h4>
         <h1 class="header-title">NIHAL NOUSHAD</h1>
         <h6 class="header-mono">Front end Designer | Full-stack Developer</h6>
-        <button class="btn btn-primary btn-rounded">
-          <i class="ti-printer pr-2"></i>Print Resume
-        </button>
       </div>
     </div>
   </header>
@@ -79,9 +78,6 @@
           <li class="nav-item">
             <a href="#portfolio" class="nav-link">Portfolio</a>
           </li>
-          <li class="nav-item">
-            <a href="#blog" class="nav-link">Blog</a>
-          </li>
           <li class="nav-item last-item">
             <a href="#contact" class="nav-link">Contact</a>
           </li>
@@ -103,9 +99,6 @@
           website for your Business, Company? well, I am here to help you.
           Feel free contact me.
         </p>
-        <button class="btn btn-outline-danger">
-          <i class="icon-down-circled2"></i>Download My CV
-        </button>
       </div>
       <div class="col-lg-4 about-card">
         <h3 class="font-weight-light">Personal Info</h3>
@@ -119,23 +112,25 @@
         </ul>
         <ul class="social-icons pt-3">
           <li class="social-item">
-            <a class="social-link" href="https://www.facebook.com/profile.php?id=100009135317431"><i class="ti-facebook"
+            <a class="social-link" target="_blank" href="https://www.facebook.com/profile.php?id=100009135317431"><i
+                class="ti-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" target="_blank" href="https://twitter.com/NihalBinnousha5"><i class="ti-twitter"
                 aria-hidden="true"></i></a>
           </li>
           <li class="social-item">
-            <a class="social-link" href="https://twitter.com/NihalBinnousha5"><i class="ti-twitter"
+            <a class="social-link" target="_blank"
+              href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act"><i class="ti-google"
                 aria-hidden="true"></i></a>
           </li>
           <li class="social-item">
-            <a class="social-link" href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act"><i
-                class="ti-google" aria-hidden="true"></i></a>
+            <a class="social-link" target="_blank" href="https://www.instagram.com/nihal_bin_noushad/"><i
+                class="ti-instagram" aria-hidden="true"></i></a>
           </li>
           <li class="social-item">
-            <a class="social-link" href="https://www.instagram.com/nihal_bin_noushad/"><i class="ti-instagram"
+            <a class="social-link" target="_blank" href="https://github.com"><i class="ti-github"
                 aria-hidden="true"></i></a>
-          </li>
-          <li class="social-item">
-            <a class="social-link" href="https://github.com"><i class="ti-github" aria-hidden="true"></i></a>
           </li>
         </ul>
       </div>
@@ -595,7 +590,7 @@
         <div class="col-lg-8">
           <div class="contact-form-card">
             <h4 class="contact-title">Send a message</h4>
-            <form id="hey" action="">
+            <form id="form-submit" action="">
               <div class="form-group">
                 <input class="form-control" type="nName" placeholder="Name *" required id="contact-name"
                   onkeyup="validatename()" />
@@ -658,24 +653,25 @@
             </div>
             <ul class="social-icons pt-4">
               <li class="social-item">
-                <a class="social-link text-dark" href="https://www.facebook.com/profile.php?id=100009135317431"><i
-                    class="ti-facebook" aria-hidden="true"></i></a>
-              </li>
-              <li class="social-item">
-                <a class="social-link text-dark" href="https://twitter.com/NihalBinnousha5"><i class="ti-twitter"
+                <a class="social-link text-dark" target="_blank"
+                  href="https://www.facebook.com/profile.php?id=100009135317431"><i class="ti-facebook"
                     aria-hidden="true"></i></a>
               </li>
               <li class="social-item">
-                <a class="social-link text-dark"
+                <a class="social-link text-dark" target="_blank" href="https://twitter.com/NihalBinnousha5"><i
+                    class="ti-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li class="social-item">
+                <a class="social-link text-dark" target="_blank"
                   href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act"><i class="ti-google"
                     aria-hidden="true"></i></a>
               </li>
               <li class="social-item">
-                <a class="social-link text-dark" href="https://www.instagram.com/nihal_bin_noushad/"><i
+                <a class="social-link text-dark" target="_blank" href="https://www.instagram.com/nihal_bin_noushad/"><i
                     class="ti-instagram" aria-hidden="true"></i></a>
               </li>
               <li class="social-item">
-                <a class="social-link text-dark" href="https://github.com"><i class="ti-github"
+                <a class="social-link text-dark" target="_blank" href="https://github.com"><i class="ti-github"
                     aria-hidden="true"></i></a>
               </li>
             </ul>
@@ -715,11 +711,11 @@
   <script src="assets/js/johndoe.js"></script>
   <script src="script.js"></script>
   <script>
-    $("#hey").submit((e) => {
+    $("#form-submit").submit((e) => {
       e.preventDefault()
       $.ajax({
         url: "https://script.google.com/macros/s/AKfycbxCjzqHfydfX96LWoK_e108L-qV2fIozPTcby5_kd-8zj8HNkMTjCUat8U6ZXqKa9ZU/exec",
-        data: $("#hey").serialize(),
+        data: $("#form-submit").serialize(),
         method: "post",
         success: function (response) {
           alert("Form submitted successfully")
